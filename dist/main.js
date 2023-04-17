@@ -1,0 +1,1 @@
+!function(){"use strict";(class{constructor(){this.chars=[]}add(t){this.chars.push(t)}}).prototype[Symbol.iterator]=function(){let t=1,r=this.chars.length,s=this.chars;return{next(){return t<=r?(t++,{done:!1,value:s[t-2]}):{done:!0}}}}}();
